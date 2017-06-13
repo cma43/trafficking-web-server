@@ -24,9 +24,9 @@ next();
 });
 
 
-// app.use((req,res, next) => {
-// 	res.render('login.hbs');
-// });
+app.use((req,res, next) => {
+	res.render('login.hbs');
+});
 
 
 app.use(express.static(__dirname + '/public'));
