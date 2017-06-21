@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "angular": "^1.6.4",
+    "angular-annotorious": "^1.0.7",
     "express": "^4.15.3",
-    "hbs": "^4.0.1"
+    "hbs": "^4.0.1",
+    "html": "^1.0.0"
   }
 }

@@ -1,9 +1,48 @@
 <!DOCTYPE html> 
 <html>
 <head>
+<script>
+  function init() {
+    anno.makeAnnotatable(document.getElementById('myImage'));
+  }
+</script>
+...
+<body onload="init();">
+<img src="640px-Hallstatt.jpg" class="annotatable" id="myImage"/>
+</body>
+
 
 <meta charset = "utf-8">
-<title>
+<!-- <title>
+	Some Website
+</title> -->
+</head>
+
+<!-- <script>
+  function init() {
+    anno.makeAnnotatable(document.getElementById('myImage'));
+  }
+</script>
+...        
+<body onload="init();">
+<img src="example.jpg" id="myImage" />
+</body> -->
+
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html> 
+<html>
+<head>
+
+<link type="text/css" rel="stylesheet" href="css/annotorious.css" />
+<script type="text/javascript" src="annotorious.min.js"></script>
+
+<meta charset = "utf-8"> -->
+<!-- <title>
 	Some Website
 </title>
 </head>
@@ -11,8 +50,8 @@
 <body>
 	{{> header}}
 	
-	<p>{{screamIt welcomeMessage}}</p>
+	<p>{{ welcomeMessage}}</p>
 
 	{{> footer}}
 </body>
-</html>
+</html> -->
